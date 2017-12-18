@@ -10,7 +10,8 @@
 $number = 1;
 while($number < 10){
   echo '<p>' .$number. '</p>';
-  $number = $number + 0.5;
+  $number += $number/2;
+  // $number = $number + $number/2;
 }
      ?>
   </body>
